@@ -4,7 +4,7 @@ import { Link, browserHistory } from 'react-router';
 import { fetchPost, deletePost } from '../../actions/index.js';
 import axios from 'axios';
 
-const ROOT_URL = 'http://localhost:3000';
+const ROOT_URL = 'https://mcbucket.herokuapp.com/api' || 'http://localhost:3000';
 
 const config = {
 	headers: {

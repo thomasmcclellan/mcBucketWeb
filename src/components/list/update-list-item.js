@@ -4,7 +4,7 @@ import { fetchPost, updatePost } from '../../actions/index.js';
 import { Link } from 'react-router';
 import axios from 'axios';
 
-const ROOT_URL = 'http://localhost:3000';
+const ROOT_URL = 'https://mcbucket.herokuapp.com/api' || 'http://localhost:3000';
 
 const config = {
 	headers: {
