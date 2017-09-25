@@ -12,7 +12,7 @@ import {
 	DELETE_POST
 } from './types.js';
 
-const ROOT_URL = 'https://mcbucket.herokuapp.com/api/' || 'http://localhost:3000';
+const ROOT_URL = 'https://mcbucket.herokuapp.com/api' || 'http://localhost:3000';
 
 const config = {
 	headers: { authorization: localStorage.getItem('token') }
